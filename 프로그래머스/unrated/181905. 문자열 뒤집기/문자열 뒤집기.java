@@ -1,15 +1,7 @@
 class Solution {
     public String solution(String my_string, int s, int e) {
-        char[] arr = my_string.toCharArray(); 
-        char[] answer = new char[arr.length];
-        for(int i=0; i<arr.length; i++){
-            if(i>=s && i<=e){
-                answer[i] = arr[s+e-i];
-            }
-            else{
-                answer[i] = arr[i];
-            }
-        }
-        return new String(answer);
+        StringBuilder answer = new StringBuilder(my_string.substring(s, e + 1));
+        answer.reverse();
+        return my_string.substring(0, s) + answer + my_string.substring(e + 1);
     }
 }
