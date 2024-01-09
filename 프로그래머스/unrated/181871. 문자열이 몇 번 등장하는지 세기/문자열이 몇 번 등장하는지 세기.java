@@ -9,3 +9,11 @@ class Solution {
         return answer;
     }
 }
+
+
+//
+// for(int i=0; i<myString.length(); i++) {
+//     if(myString.substring(i).startsWith(pat)){
+//         answer++;
+//     }
+// }
