@@ -10,3 +10,6 @@ class Solution {
         return answer;
     }
 }
+
+//
+// myString.replaceAll("[^l-z]", "l");
