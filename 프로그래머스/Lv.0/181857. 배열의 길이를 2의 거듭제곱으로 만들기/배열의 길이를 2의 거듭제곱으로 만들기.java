@@ -14,3 +14,11 @@ class Solution {
         return answer;
     }
 }
+
+
+//
+// int length = 1;
+// while (length < arr.length) {
+//     length *= 2;
+// }
+// return Arrays.copyOf(arr, length);
