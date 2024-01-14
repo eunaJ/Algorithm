@@ -10,3 +10,9 @@ class Solution {
         return answer;
     }
 }
+
+//
+// StringBuilder sb = new StringBuilder();
+// for (int i = r; i < code.length(); i += q)
+//     sb.append(code.charAt(i));
+// return sb.toString();
