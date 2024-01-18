@@ -10,3 +10,6 @@ class Solution {
         return answer;
     }
 }
+
+//
+// (b - a + 1) * (a + b) / 2;
