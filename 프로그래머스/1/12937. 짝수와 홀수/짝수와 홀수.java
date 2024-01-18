@@ -4,3 +4,6 @@ class Solution {
         else return "Odd";
     }
 }
+
+//
+// return (num % 2 == 0) ? "Even" : "Odd";
