@@ -14,3 +14,9 @@ class Solution {
         return answer;
     }
 }
+
+//
+// int sum = 45;
+// for (int i : numbers) {
+//     sum -= i;
+// }
