@@ -8,3 +8,7 @@ class Solution {
         return answer;
     }
 }
+
+//
+// for (int i=0; i<signs.length; i++)
+//     answer += absolutes[i] * (signs[i]? 1: -1);
