@@ -8,3 +8,6 @@ class Solution {
         return answer;
     }
 }
+
+//
+return new StringBuilder().append(n).reverse().chars().map(Character::getNumericValue).toArray();
