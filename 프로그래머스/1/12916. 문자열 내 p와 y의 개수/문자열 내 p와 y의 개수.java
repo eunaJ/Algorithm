@@ -10,3 +10,14 @@ class Solution {
         return p == y ? true : false;
     }
 }
+
+//
+// if (s.charAt(i) == 'p')
+//     count++;
+// else if (s.charAt(i) == 'y')
+//     count--;
+
+// if (count == 0)
+//     return true;
+// else
+//     return false;
