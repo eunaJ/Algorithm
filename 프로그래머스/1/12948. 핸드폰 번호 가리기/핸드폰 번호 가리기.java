@@ -9,3 +9,9 @@ class Solution {
         return String.valueOf(answer);
     }
 }
+
+//
+// for(int i = 0; i < ch.length - 4; i ++){
+//      ch[i] = '*';
+//  }
+//  return String.valueOf(ch);
