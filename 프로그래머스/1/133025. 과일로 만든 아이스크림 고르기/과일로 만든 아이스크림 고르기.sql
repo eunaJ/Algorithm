@@ -1,0 +1,1 @@
+SELECT icecream_info.flavor FLAVOR from icecream_info inner join first_half on icecream_info.flavor = first_half.flavor where total_order > 3000 and ingredient_type = 'fruit_based' order by total_order desc;
