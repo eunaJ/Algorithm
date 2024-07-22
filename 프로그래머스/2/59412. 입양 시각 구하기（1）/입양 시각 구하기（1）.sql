@@ -1,0 +1,1 @@
+select date_format(datetime, '%H') hour, count(date_format(datetime, '%H')) as count from animal_outs group by date_format(datetime, '%H') having hour >= 9 and hour <= 19 order by hour;
