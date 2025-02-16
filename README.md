@@ -1,2 +1,5 @@
 # Algorithm
-This is a auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
+
+> 주로 Java와 MySQL을 이용하여 알고리즘 문제를 해결합니다.
+>
+> 현재는 주 3회마다 1문제씩 풀기 챌린지를 진행하고 있습니다.
